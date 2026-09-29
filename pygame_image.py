@@ -30,6 +30,8 @@ def main():
             kk3_rct.move_ip(-1, 0)
         if key_lst[pg.K_RIGHT]:
             kk3_rct.move_ip(+1, 0)
+
+        kk3_rct.move_ip(-1, 0)
         
         x = tmr % 3200
         screen.blit(bg_img, [-x, 0])
